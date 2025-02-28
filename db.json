@@ -1,9 +1,199 @@
 {
-  "posts": [
-    { "id": 1, "title": "json-server", "author": "typicode" }
+  "events": [
+    {
+      "id": "1",
+      "name": "Sunset Music Festival",
+      "dateTime": "2025-06-10T18:00:00Z",
+      "venueName": "Beachfront Arena",
+      "venueAddress": "Ocean Drive, Miami, USA",
+      "venueCapacity": 10000,
+      "organizer": "Sunset Events",
+      "description": "An open-air festival featuring top electronic music artists and a breathtaking sunset view.",
+      "ticketsAvailable": 5000,
+      "category": "festival",
+      "price": 120,
+      "ageRestriction": "18+",
+      "posterURL": "https://static.vecteezy.com/system/resources/previews/003/161/521/non_2x/music-festival-poster-fantasy-poster-for-party-vector.jpg",
+      "duration": "10 hours",
+      "soldTickets": 5000
+    },
+    {
+      "id": "2",
+      "name": "Coldplay World Tour 2025",
+      "dateTime": "2025-09-15T20:00:00Z",
+      "venueName": "Wembley Stadium",
+      "venueAddress": "London, UK",
+      "venueCapacity": 90000,
+      "organizer": "Live Nation",
+      "description": "Experience Coldplay's breathtaking live performance with stunning visuals and anthemic hits.",
+      "ticketsAvailable": 20000,
+      "category": "concert",
+      "price": 150,
+      "ageRestriction": "All Ages",
+      "posterURL": "https://images.lifestyleasia.com/wp-content/uploads/sites/3/2024/09/26124513/coldplay-hong-kong-2024.jpeg",
+      "duration": "3 hours",
+      "soldTickets": 70000
+    },
+    {
+      "id": "3",
+      "name": "Disney on Ice: Frozen & Encanto",
+      "dateTime": "2025-03-25T14:00:00Z",
+      "venueName": "Madison Square Garden",
+      "venueAddress": "New York, USA",
+      "venueCapacity": 20000,
+      "organizer": "Disney Entertainment",
+      "description": "A magical ice-skating experience bringing beloved Disney characters to life on stage.",
+      "ticketsAvailable": 8000,
+      "category": "kids",
+      "price": 50,
+      "ageRestriction": "All Ages",
+      "posterURL": "https://d2sa0osf92td39.cloudfront.net/eyJidWNrZXQiOiAiZXZlcm91dC1pbWFnZXMtcHJvZHVjdGlvbiIsICJrZXkiOiAiaW1hZ2UtMTY5MjE0NTM0MTYwNTc1OC1kaXNuZXkuanBlZyIsICJlZGl0cyI6IHsicmVzaXplIjogeyJmaXQiOiAiaW5zaWRlIiwgInBvc2l0aW9uIjogImNlbnRyZSIsICJ3aWR0aCI6IDEyMDAsICJoZWlnaHQiOiBudWxsfX19",
+      "duration": "2 hours",
+      "soldTickets": 12000
+    },
+    {
+      "id": "4",
+      "name": "AI & Future Tech Summit 2025",
+      "dateTime": "2025-11-05T09:00:00Z",
+      "venueName": "Silicon Valley Conference Center",
+      "venueAddress": "Palo Alto, USA",
+      "venueCapacity": 5000,
+      "organizer": "Tech Visionaries",
+      "description": "A global summit discussing AI breakthroughs, blockchain, and the future of technology.",
+      "ticketsAvailable": 2500,
+      "category": "conference",
+      "price": 300,
+      "ageRestriction": "18+",
+      "posterURL": "https://d1csarkz8obe9u.cloudfront.net/posterpreviews/artificial-intelligence-template-design-67532adc6edc589b0a1f4d94d9830a2b_screen.jpg?ts=1683515155",
+      "duration": "8 hours",
+      "soldTickets": 2500
+    },
+    {
+      "id": "5",
+      "name": "UEFA Champions League Final 2025",
+      "dateTime": "2025-05-30T19:45:00Z",
+      "venueName": "Allianz Arena",
+      "venueAddress": "Munich, Germany",
+      "venueCapacity": 75000,
+      "organizer": "UEFA",
+      "description": "The ultimate football showdown to determine the European club champion.",
+      "ticketsAvailable": 0,
+      "category": "sports",
+      "price": 500,
+      "ageRestriction": "All Ages",
+      "posterURL": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgsJcRV_9hU2u7ATXzVWo5Wm6Jr9RslLuIYcWZtU1BFGz801yrUoGnKc6gVUuTZPR933F2vTnJWdRz9Msl9vzxURLeL9oUC-IhzaHhEy2qbSGuaLdmJKMllnucBwuOyn6JnbAo_F1q5PrMu_p4BDc6Dbdwk68nYm_64ZKiJcXnybGok_9NpZ5zGbC50p0Q/s1600/uefa-2025-final-logos%20%2816%29.jpg",
+      "duration": "2.5 hours",
+      "soldTickets": 75000
+    },
+    {
+      "id": "6",
+      "name": "Hamilton: The Broadway Musical",
+      "dateTime": "2025-07-12T19:00:00Z",
+      "venueName": "Richard Rodgers Theatre",
+      "venueAddress": "New York, USA",
+      "venueCapacity": 1400,
+      "organizer": "Broadway Productions",
+      "description": "The award-winning musical that tells the story of Alexander Hamilton through hip-hop and theater.",
+      "ticketsAvailable": 300,
+      "category": "theatre",
+      "price": 200,
+      "ageRestriction": "12+",
+      "posterURL": "https://m.media-amazon.com/images/I/91JBfHSGuaL._AC_UF894,1000_QL80_.jpg",
+      "duration": "2.5 hours",
+      "soldTickets": 1100
+    },
+    {
+      "id": "7",
+      "name": "The Weeknd: Hurry Up Tomorrow Tour",
+      "dateTime": "2025-08-10T20:00:00Z",
+      "venueName": "Madison Square Garden",
+      "venueAddress": "New York, USA",
+      "venueCapacity": 20000,
+      "organizer": "Live Nation",
+      "description": "Join The Weeknd for an unforgettable night of his greatest hits on the 'Hurry Up Tomorrow' tour.",
+      "ticketsAvailable": 5000,
+      "category": "concert",
+      "price": 150,
+      "ageRestriction": "All ages",
+      "posterURL": "https://www.thatericalper.com/wp-content/uploads/2025/01/The-Weeknd-Tour-2025.jpg",
+      "duration": "3 hours",
+      "soldTickets": 500,
+      "availableTickets": null
+    }
   ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 }
+  "users": [
+    {
+      "id": "1",
+      "role": "admin",
+      "username": "fidan",
+      "fullName": "Fidan Abdullayeva",
+      "email": "fidan@gmail.com",
+      "password": "Fidan85",
+      "balance": 500,
+      "profilePictureURL": "https://upload.wikimedia.org/wikipedia/commons/8/89/Portrait_Placeholder.png",
+      "favorites": [
+        {
+          "id": 1,
+          "eventId": 1
+        },
+        {
+          "id": 2,
+          "eventId": 2
+        }
+      ],
+      "accountCreationDate": "2022-01-01",
+      "totalSpentMoney": 0
+    },
+    {
+      "id": "2",
+      "role": "user",
+      "username": "johndoe",
+      "fullName": "John Doe",
+      "email": "johndoe@example.com",
+      "password": "hashed_password_2",
+      "balance": 200,
+      "profilePictureURL": "https://upload.wikimedia.org/wikipedia/commons/8/89/Portrait_Placeholder.png",
+      "favorites": [
+        {
+          "id": 3,
+          "eventId": 5
+        }
+      ],
+      "accountCreationDate": "2023-06-15",
+      "totalSpentMoney": 300
+    },
+    {
+      "id": "10d2",
+      "role": "client",
+      "fullName": "Alex Turner",
+      "username": "alex2",
+      "email": "alex2@gmail.com",
+      "password": "Alex21",
+      "balance": "99",
+      "profilePictureURL": "https://pbs.twimg.com/media/F3Mrd_uXQAIO519.jpg",
+      "favorites": [],
+      "accountCreationDate": "2025-02-28T13:02:11.455Z",
+      "totalSpentMoney": 0
+    }
   ],
-  "profile": { "name": "typicode" }
+  "tickets": [
+    {
+      "id": "1",
+      "userId": 2,
+      "eventId": 1,
+      "quantity": 2,
+      "price": 100,
+      "purchaseDate": "2024-11-10T15:30:00Z",
+      "ticketCode": "TK-001-AB12X"
+    },
+    {
+      "id": "2",
+      "userId": 2,
+      "eventId": 5,
+      "quantity": 1,
+      "price": 500,
+      "purchaseDate": "2025-03-01T18:45:00Z",
+      "ticketCode": "TK-002-XY78Z"
+    }
+  ]
 }
